@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Run From XXXXL Keilan</title>
+    <title>Unity WebGL Player | RunFromXXXXLKeilan</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/KennethBuild.loader.js"></script>
+    <script src="Build/runn.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/KennethBuild.data",
-        frameworkUrl: "Build/KennethBuild.framework.js",
-        codeUrl: "Build/KennethBuild.wasm",
+        dataUrl: "Build/runn.data",
+        frameworkUrl: "Build/runn.framework.js",
+        codeUrl: "Build/runn.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "RunFromXXXXLKeilan",
